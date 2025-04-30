@@ -1,5 +1,6 @@
 #Its not good practice to push this file to git!!!! But to make it easier i will :)
 
+aws_region           = "eu-central-1"
 vpc_cidr             = "10.0.0.0/16"
 num_frontend_subnets = 2
 num_backend_subnets  = 2
