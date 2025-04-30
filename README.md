@@ -1,5 +1,5 @@
-Architecture design :
-I am creating a VPC, a frontend subnet which is public, and a backend and db subnets, which are private
+Architecture design :  <br />
+I am creating a VPC, a frontend subnet which is public, and a backend and db subnets, which are private  <br />
 I am deploying a Internet Gateway for the public subnet, and a NAT gateway for the backend subnet(so it can download the prebuild container from dockerhub)
 I am deploying MariaDB managed database inside the db subnet
 I am setting up security groups to only allow requested traffic and deny the rest
