@@ -1,0 +1,10 @@
+# Ignore Terraform system files and directories
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+
+
+# Ignore zip and binary files generated during the process
+*.zip
